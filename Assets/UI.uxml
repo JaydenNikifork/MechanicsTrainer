@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/PlayButton.uss?fileID=7433441132597879392&amp;guid=24186c921e1b4ea42ad5a5dbbd6bbe96&amp;type=3#PlayButton" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+        <ui:VisualElement style="justify-content: center; align-self: center; flex-direction: row;">
+            <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Play" class="Play" />
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" class="Play" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
